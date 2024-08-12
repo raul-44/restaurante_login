@@ -1,0 +1,67 @@
+#cima{
+    display: flex;
+    position: fixed;
+    
+    color: rgb(255, 255, 255);
+    background-color: rgb(209, 127, 34);
+    width: 100%;
+    height: 13ch;
+}
+#menu{ 
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0.2ch;
+    margin-top: 1ch;
+    font-size: 200%;
+    height: 4ch;
+    width: 11ch;
+    border: 0;
+    background-color: rgb(209, 127, 34);
+    border-left: solid;
+    border-right: solid;
+    border-right-color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+#texte{
+    color: rgb(255, 255, 255);
+}
+#menu:hover #texte{
+    color: rgb(209, 127, 34);
+}
+#menu:hover{
+    margin-top: 0%;
+    color:rgb(209, 127, 34);
+    background-color: rgb(255, 255, 255);
+    zoom: 130%;
+}
+#centro{
+   
+  font-family: "Staatliches", sans-serif;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+}
+
+#login{
+    list-style: none
+}
+
+#baixo{ 
+    position: fixed;
+    margin-top:12%;
+    background-color: rgb(209, 127, 34);
+    width: 100%;
+    height: 5ch;
+}
+#mail{
+    transition: 0.35s;
+}
+#mail:hover{
+    color: rgb(209, 127, 34);
+}
+#mail:hover #email{
+    text-decoration: rgb(209, 127, 34);
+}
